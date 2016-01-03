@@ -1,0 +1,24 @@
+{
+  "name": "playroom",
+  "version": "0.1.0",
+  "description": "Play with static sites with fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "sample": "cd sample; node index.js"
+  },
+  "author": "Eloy Espinaco",
+  "license": "AGPL-3.0+",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "chokidar": "^1.4.2",
+    "connect": "^3.4.0",
+    "connect-livereload": "^0.5.4",
+    "ecstatic": "^1.4.0",
+    "tiny-lr": "^0.2.1",
+    "watchify": "^3.7.0"
+  },
+  "devDependencies": {
+    "standard": "^5.4.1"
+  }
+}
