@@ -102,3 +102,5 @@ function setup_browserify () {
     b.bundle().pipe(fs.createWriteStream(build_dir + '/bundle.js'))
   }
 }
+
+// Copyright (C) 2015 - Eloy Espinaco
