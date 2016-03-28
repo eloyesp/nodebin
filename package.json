@@ -1,5 +1,5 @@
 {
-  "name": "playroom",
+  "name": "nodebin",
   "version": "0.1.0",
   "description": "Play with static sites with fun",
   "main": "index.js",
@@ -20,5 +20,19 @@
   },
   "devDependencies": {
     "standard": "^5.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eloyesp/nodebin.git"
+  },
+  "keywords": [
+    "jsbin",
+    "livereload",
+    "play",
+    "try"
+  ],
+  "bugs": {
+    "url": "https://github.com/eloyesp/nodebin/issues"
+  },
+  "homepage": "https://github.com/eloyesp/nodebin"
 }
